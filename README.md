@@ -1,11 +1,11 @@
-## Module 'project'
+## Module 'terraform-module-azuredevops-project'
 
 > [!NOTE]  
-> The **project** module has known issues **without** impact on the module's functionality. 
+> The **terraform-module-azuredevops-project** module has known issues **without** impact on the module's functionality. 
 
 ### Description
 
-The module **project** manages Azure DevOps projects resources following my business needs and standards. This includes the project itself as well as some dependant resources like pipeline settings and project-wide repository policies.  
+The module **terraform-module-azuredevops-project** manages Azure DevOps projects resources following my business needs and standards. This includes the project itself as well as some dependant resources like pipeline settings and project-wide repository policies.  
 It follows these guidelines:  
 * Project names can only contain the following characters: 0-9, a-z, A-Z and -  
 * Project are always named as one of (depending in which of Uplink Systems' AzDO organization the project is created):  
