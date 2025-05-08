@@ -25,22 +25,6 @@ It follows these guidelines:
 > A default (uninitialized) repository and a default team are automatically generated when the project itself is created. The module contains two data sources to output the team- and repository-attributes from the module as well as two formatted outputs to use as import Ids. Furthermore, the module manages the administrators of the default team. If no administrator config is passed to the module, a default configuration applies adding the "Project Administrators" group as administrators.  
 > For further info and why/how to make use of the output or not: see "Known Issues".  
 
-#### Tasks & ToDos
-
-- [x] Create and manage a project with default team and git repository
-- [x] Add and manage project pipeline settings to the project
-- [x] Add and manage repository policies on project level
-- [x] Manage default team's administrators using groups
-- [x] Manage "Project Administrators" group membership
-- [x] Initialize the project's default repository (via AzDO REST API call)
-- [x] Opt-in to skip initialization of the project's default repository for imported projects
-- [x] Opt-in to disable/enable the project's default repository (via AzDO REST API calls)
-- [x] \(Optional) Apply input variable validation rules if necessary to match available resource values
-- [x] \(Optional) Apply input variable validation rules if necessary to match the business standards
-- [x] Create and manage modules outputs
-- [x] Document module with README.md
-- [ ] \(Optional) Review code regularly for possible improvements and updates
-
 ### Requirements
 
 | Name | Version |
