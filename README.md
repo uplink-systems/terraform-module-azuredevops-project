@@ -38,6 +38,7 @@ It follows these guidelines:
 | Name | Type |
 |------|------|
 | [azuredevops_project.project](https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs/resources/project) | resource |
+| [azuredevops_project_tags.project_tags](https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs/resources/project_tags) | resource |
 | [azuredevops_group_membership.project_administrators](https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs/resources/group_membership) | resource |
 | [azuredevops_team_administrators.team_administrators](https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs/resources/team_administrators) | resource |
 | [azuredevops_project_pipeline_settings.project_pipeline_settings](https://registry.terraform.io/providers/microsoft/azuredevops/latest/docs/resources/project_pipeline_settings) | resource |
