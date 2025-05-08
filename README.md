@@ -31,7 +31,7 @@ It follows these guidelines:
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.9.0 |
 | <a name="requirement_powershell"></a> [powershell](#requirement\_powershell) | >= 7.0 |
-| <a name="requirement_azuredevops"></a> [microsoft\/azuredevops](#requirement\_azuredevops) | ~> 1.5 |
+| <a name="requirement_azuredevops"></a> [microsoft\/azuredevops](#requirement\_azuredevops) | ~> 1.9 |
 
 ### Resources
 
