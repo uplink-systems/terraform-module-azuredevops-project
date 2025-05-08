@@ -24,6 +24,7 @@ variable "project" {
     visibility                    = optional(string, "private")
     version_control               = optional(string, "Git")
     work_item_template            = optional(string, "Agile")
+    tags                          = optional(list(string), null)
     project_administrators        = optional(object({
       users                         = optional(list(string), null)
       mode                          = optional(string, "overwrite")
