@@ -6,6 +6,7 @@ module "project_private" {
   source                      = "github.com/uplink-systems/terraform-module-azuredevops-project"
   project                     = {
     name                          = "Private-Project"
+    tags                          = [ "ExampleTag1","ExampleTag2" ]
     project_administrators        = {
       users                                 = [
         "admin.azdo@tenantname.onmicrosoft.com",

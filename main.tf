@@ -17,6 +17,12 @@ resource "azuredevops_project" "project" {
   work_item_template  = var.project.work_item_template
 }
 
+resource "azuredevops_project_tags" "project_tags" {
+  count               = var.project.tags != null ? 1 : 0
+  project_id          = azuredevops_project.project.id
+  tags                = var.project.tags
+}
+
 resource "azuredevops_group_membership" "project_administrators" {
   group               = data.azuredevops_group.project_administrators.descriptor
   members             = flatten(data.azuredevops_users.project_administrators[*].users[*].descriptor)

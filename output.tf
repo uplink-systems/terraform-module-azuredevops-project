@@ -8,6 +8,12 @@ output "project" {
   depends_on    = [ azuredevops_project.project ]
 }
 
+output "project_tags" {
+  description   = "project tags attributes"
+  value         = azuredevops_project_tags.project_tags
+  depends_on    = [ azuredevops_project_tags.project_tags ]
+}
+
 output "group_membership_project_administrators" {
   description   = "group_membership.project_administrators attributes"
   value         = azuredevops_group_membership.project_administrators
